@@ -1,0 +1,26 @@
+.hello{
+  margin-top: 119px;
+  
+}
+.hello__title{
+  width: 511px;
+  height: 197px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 98px;
+  
+}
+.hello__text{
+  margin-top: 28px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  width: 196px;
+  height: 20px; 
+
+}
+.hello__button{
+  margin-top: 34px;
+}

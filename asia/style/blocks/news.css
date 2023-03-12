@@ -1,0 +1,87 @@
+.news{
+  margin-top: 127px;
+}
+.news__item{
+  display: inline-block;
+  width: 557px;
+  height: 394px;
+  margin-top: 51px;
+  margin-right: 23px;
+}
+.news__item:last-child{
+  margin-right: 0px;
+}
+.news__content-newyear{
+  background: url(../../image/plain.jpg);
+  width: 557px;
+  height: 394px;
+  
+}
+.news__content-serfing{
+   background: url(../../image/Surfer.jpg);
+   width: 557px;
+   height: 394px;
+}
+.news__content{
+  margin-top: 252px;
+  margin-left: 30px;
+}
+.paginator{
+  margin-top: 58px;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.paginator__item{
+  margin-left: 36px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  align-items: center;
+  color: #FFFFFF;
+}
+.paginator__display{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.news__text{
+  margin-top: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.news__title{
+  margin-top: 12px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;  
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.news__date{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  margin-bottom: 12px;
+}
