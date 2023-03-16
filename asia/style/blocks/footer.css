@@ -19,28 +19,38 @@ top: 15px;
   max-width: 1142px;
 
 }
-.logo{
-  float: left;
+.logo--footer,.menu--footer,.socials,.contacts--footer{
+  display: inline-block;
+}
+.logo--footer{
   margin-top: 64px;
+  float: left;
+ 
 }
 
-.menu{
+.menu__list--footer{
   margin-left: 79px;
   margin-top: 59px;
 }
 .socials{
-  display: inline-flex;
+ 
   margin-top: 68px;
   margin-left: 274px;
 
 }
-.socials__link{
+.socials__item{
+  display: inline-block;
   margin-right: 10px;
 }
 
-.contacts{
+
+.socials__item:last-child{
+  margin-right: 0px;
+}
+.contacts--footer{
   float: right;
   margin-top: 61px;
+
 
 }
 .contacts__phone{
