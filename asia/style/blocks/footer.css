@@ -1,17 +1,23 @@
 footer{
-  height: 146px;
+  height: 165px;
   display: block;
   background: #001821;
   
 }
-.footer__container{
-  border-top: 4px solid #fff;
+.band{
+width: 1142px;
+height: 4px;
+background: #fff;
+opacity: 0.1;
+position: relative;
+top: 15px;
 }
 .container{
   margin: 0 auto;
   max-width: 100%;
   max-height: 100%;
   max-width: 1142px;
+
 }
 .logo{
   float: left;

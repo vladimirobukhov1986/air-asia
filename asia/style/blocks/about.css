@@ -8,6 +8,7 @@
 .about__img{
   float: left;
   width: 490px;
+  border-radius: 5px;
 }
 .about__content{
   position: absolute;
@@ -20,6 +21,7 @@
   padding-left: 81px;
   padding-right: 81px;
   padding-bottom: 66px;
+  border-radius: 5px;
 }
 .about__text{
   margin-top: 37px;
