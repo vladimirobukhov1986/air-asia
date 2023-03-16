@@ -18,6 +18,9 @@
 .offers__content{
  padding-top: 33px;
  padding-left: 22px;
+ padding-right: 16px;
+ padding-bottom: 26px;
+ width: 362px;
 }
 .offers__title{
   font-style: normal;
