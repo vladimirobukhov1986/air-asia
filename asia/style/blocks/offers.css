@@ -1,6 +1,7 @@
 .offers{
   margin-top: 246px;
 }
+
 .offers__item{
   width: 362px;
   height: 449px;
@@ -14,24 +15,21 @@
   margin-right: 0px;
 }
 .offers__content{
-  width: 362px;
-  height: 449px;
-  width: 362px;
-  height: 305px;
+ padding-top: 33px;
+ padding-left: 22px;
 }
 .offers__title{
-  margin-top: 33px;
-  margin-left: 22px;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 33px;  
+  padding-bottom: 21px;
 }
 .offers__feature{
-  display: inline-flex;
-  margin-top: 23px;
-  margin-left: 28px;
-
+  display: inline-block;
+  padding-bottom: 23px;
+  padding-left: 6px;
+  padding-right: 28px;
 
 }
 .offers__feature-text{
@@ -39,48 +37,40 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  display: inline-flex;
-  
+  padding-left: 9px;
   color: #666666;
-  margin-top: 25px;
-  margin-left: 10px;
+  display: inline-block;
+}
+.offers__feature-icon{
+  display: inline-block;
 }
 .offers__text{
   width: 324px;
   height: 63px;
-  margin-top: 24px;
-  margin-left: 22px;
-  margin-right: 16px;
-  margin-bottom: 25px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  display: flex;
-  align-items: center;
-
   color: #303030;
-
 }
-.button feature__button{
-  margin-top: 25px;
-  margin-left: 24px;
+.feature__button{
+  margin-top: 24px;
+}
+.feature__button--light{
+  border: 1px solid #F5170E;
+  color: #F5170E;
+  margin-top: 24px;
+  background: #FFFFFF;
 }
 .offers__img{
   width: 362px;
-  height: 144px;  
+  height: 144px;
 }
-.offers__feature-iconcalendar{
-  margin-top: 21px;
-  margin-left: px;
-  width: 26px;
-  height: 26px;
- 
-}
-.offers__feature-iconmeal{
-  width: 36px;
-  height: 26px;   
-  margin-top: 21px;
-  margin-left:px ;
- 
+.title--fire::after{
+  content: "";
+  width: 21px;
+  height: 28px;
+  background: url(../../image/flame.png);
+  display: inline-block;
+  margin-left: 12px;
 }

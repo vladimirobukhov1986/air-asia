@@ -1,5 +1,6 @@
 .news{
   margin-top: 127px;
+  height: 552px;
 }
 .news__item{
   display: inline-block;
@@ -11,20 +12,14 @@
 .news__item:last-child{
   margin-right: 0px;
 }
-.news__content-newyear{
-  background: url(../../image/plain.jpg);
-  width: 557px;
-  height: 394px;
-  
+.news__item{
+  position: relative;
 }
-.news__content-serfing{
-   background: url(../../image/Surfer.jpg);
-   width: 557px;
-   height: 394px;
-}
+
 .news__content{
-  margin-top: 252px;
-  margin-left: 30px;
+  position: absolute;
+  top: 252px;
+  left: 30px;
 }
 .paginator{
   margin-top: 58px;
@@ -71,8 +66,6 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;  
-  display: flex;
-  align-items: center;
   color: #FFFFFF;
 }
 .news__date{
@@ -80,8 +73,8 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  display: flex;
-  align-items: center;
   color: #FFFFFF;
-  margin-bottom: 12px;
+}
+.news__img{
+  border-radius: 5px;
 }

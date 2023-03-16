@@ -2,6 +2,10 @@ footer{
   height: 146px;
   display: block;
   background: #001821;
+  
+}
+.footer__container{
+  border-top: 4px solid #fff;
 }
 .container{
   margin: 0 auto;
@@ -24,9 +28,14 @@ footer{
   margin-left: 274px;
 
 }
+.socials__link{
+  margin-right: 10px;
+}
+
 .contacts{
   float: right;
   margin-top: 42px;
+
 }
 .contacts__phone{
   font-style: normal;
@@ -36,6 +45,7 @@ footer{
   display: flex;
   align-items: center;
   color: #fff;
+  margin-top: 6px;
 }
 .contacts__call{
   font-style: normal;
@@ -44,4 +54,5 @@ footer{
   line-height: 20px;
   color: #9A9A9A;
   margin-left: 28px;
+  
 }
